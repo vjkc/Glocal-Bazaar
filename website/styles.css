@@ -1,0 +1,110 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Product details page */
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Shopping cart page */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+    max-width: 100px;
+}
+
+/* Checkout page */
+.checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Additional styles specific to your e-commerce website can be added below */
